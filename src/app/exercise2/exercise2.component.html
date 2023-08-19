@@ -1,3 +1,3 @@
 <input  class="form-control" type="text" [(ngModel)]="serverName" onclick="mom()">
-<button class="btn btn-primary" (click)="mom()">Add Client</button>
+<button class="btn btn-primary" (click)="mom()" (click)="serverName = ''" >Reset Client</button>
 <p>{{ serverName }}</p>
