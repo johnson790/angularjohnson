@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {ServerComponent} from './server/server.component';
+import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { Exercise1Component } from './exercise1/exercise1.component';
+import { WarningAlertComponent}  from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { Exercise1Component } from './exercise1/exercise1.component';
     AppComponent,
     ServerComponent,
     ServersComponent,
-    Exercise1Component
+    WarningAlertComponent,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
       <app-server></app-server>
       <app-server></app-server>
-      <app-exercise1><app-exercise1>
+  
   `,
 
 })
