@@ -5,7 +5,14 @@ import { Component } from '@angular/core';
   template:`
   <p>This is warning, you are in danger</p>
   `,
-  styleUrls: ['warning-alert.component.css']
+  styles: [`
+  p {
+    padding: 20px;
+    background-color:mistyrose;
+    border:1px solid red;
+  }
+  `
+]
 })
 export class WarningAlertComponent {
 
